@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    color: green;
+    font-weight: bold;
+    
+    
+}
+
+select{
+    color: green;
+    border: solid;
+    border-radius: 20px;
+   
+}
+input{
+    border-radius: 20px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:green;
+    border: solid;
+    font-weight: bold;
+}
+
+textarea{
+    color: green;
+    border: solid;
+    border-radius: 20px;
+
+}
+
