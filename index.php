@@ -12,7 +12,7 @@
 
 <body>
    <h1><?php echo "Formulaire de contact"?></h1><br>
-        <form method="post" action="">
+        <form method="post" action="traitement.php">
             <label for= "nom">Votre Nom</label>
             <input id="nom" type="text" name="nom"><br><br>
 
