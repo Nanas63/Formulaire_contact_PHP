@@ -42,7 +42,7 @@ try {
     $mail->Username   = $_ENV["MAIL_USERNAME"];                     //SMTP username
     $mail->Password   = 'a8dde613abf93d';                               //SMTP password
     /* $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;        */     //Enable implicit TLS encryption
-    $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port       = $_ENV["MAIL_PORT"];                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
     $mail->setFrom($email, $nom);
